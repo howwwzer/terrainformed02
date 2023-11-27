@@ -43,6 +43,13 @@ nav ul li a {
    /* margin: .5em;*/
 }
 
+/*main styling*/
+
+h1, p {
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff; 
+}
+
 /*footer styling*/
 
 footer {

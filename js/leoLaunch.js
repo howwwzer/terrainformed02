@@ -1,5 +1,7 @@
 // the URL that returns your JSON
 
+//use Satellite Situation Center API: https://sscweb.gsfc.nasa.gov/WebServices/REST/json/
+
 const url = "https://api.weather.gov/gridpoints/JAX/73,106/forecast/hourly"
 
 //31.260034, -81.360242, St. Simon's Island, GA

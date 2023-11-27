@@ -1,0 +1,68 @@
+/*copied from old TIF, pruning as needed*/
+/*import Space Grotesk from Google Fonts?*/
+
+/*structural styles*/
+body {
+    background-color: #050514;
+}
+
+/*nav*/
+
+.navscroll {
+    position: fixed;
+}
+
+nav li {
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration-line: underline;
+}
+
+nav li a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*additional nav styling*/
+
+nav ul {
+    list-style-type: none;
+}
+
+/*remove later, just for ease rn */
+
+nav ul li a {
+    padding: .5em;
+   /* margin: .5em;*/
+}
+
+/*footer styling*/
+
+footer {
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
+    padding-left: 3.25em;
+    position: fixed;
+    margin-top: 15px;
+    bottom: 0;
+}
+
+footer a:link {
+    color: #ffffff;
+}
+
+footer a:hover {
+    font-weight:bolder;
+}
+/*responsitivity is glitched*/
+
+footer a:visited {
+    color: #ffffff;
+}

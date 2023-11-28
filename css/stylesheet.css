@@ -60,7 +60,23 @@ nav ul li a {
 
 h1, p {
     font-family:'Courier New', Courier, monospace;
-    color: #ffffff; 
+}
+
+
+main {
+    max-width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+main h1 {
+    color:#ffffff;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
 }
 
 /*footer styling*/

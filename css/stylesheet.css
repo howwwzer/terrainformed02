@@ -6,42 +6,55 @@ body {
     background-color: #050514;
 }
 
-/*nav*/
-
-.navscroll {
-    position: fixed;
+/*navbar styling*/
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-nav li {
-    font-family:'Courier New', Courier, monospace;
-}
-
-nav li a:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    text-decoration-line: underline;
-}
-
-nav li a:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/*additional nav styling*/
 
 nav ul {
+    margin: 0;
+    padding: 1rem;
     list-style-type: none;
+    display: flex;
 }
 
-/*remove later, just for ease rn */
+nav ul li {
+    padding-right: 2rem; 
+}
 
 nav ul li a {
-    padding: .5em;
-   /* margin: .5em;*/
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color: #ffffff;
 }
+
+/*link animation adjusted from 30 seconds of code*/
+
+.link-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .link-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .link-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
 
 /*main styling*/
 

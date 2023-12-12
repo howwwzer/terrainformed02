@@ -46,7 +46,7 @@ nav ul li a {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #0087ca;
+    background-color: #ffffff;
     transform-origin: center;
     transition: transform 0.25s ease-out;
   }

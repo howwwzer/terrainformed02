@@ -58,7 +58,7 @@ nav ul li a {
 
 /*main styling*/
 
-h1, p {
+h1, h2, p {
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -108,4 +108,8 @@ footer a:visited {
    text-align: center;
    margin-top: 1.5rem;
    margin-bottom: 1.5rem;
+}
+
+h2 {
+    text-align: center;
 }

@@ -2,6 +2,8 @@
 
 //use Satellite Situation Center API: https://sscweb.gsfc.nasa.gov/WebServices/REST/json/
 
+//goal is to have api show which objects are passing above at a given location
+
 const url = "https://api.weather.gov/gridpoints/JAX/73,106/forecast/hourly"
 
 //31.260034, -81.360242, St. Simon's Island, GA

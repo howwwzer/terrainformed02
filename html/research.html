@@ -13,6 +13,7 @@
     <nav>
         <ul>
         <!--three main page links-->
+            <li><a href="/html/index.html" class="link-animation">home</a></li>
             <li><a href="/html/research.html" class="link-animation">research</a></li>
             <li><a href="/html/tracker.html" class="link-animation">rocket tracker</a></li>
             <li><a href="/html/creator.html" class="link-animation">creator</a></li>
@@ -23,15 +24,44 @@
 <main>
 
     <h1>
-        TERRAINFORMED
+        RESEARCH
     </h1>
 <div class="container">
     <p>
-        My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard! So you two dig up, dig up dinosaurs? Remind me to thank John for a lovely weekend. Must go faster... go, go, go, go, go! Yeah, but John, if The Pirates of the Caribbean breaks down, the pirates do not eat the tourists.
+        Enter a location to find what LEOs are passing overhead.
     </p>
-    <p>
-        Checkmate... This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Life finds a way. You're a very talented young man, with your own clever thoughts and ideas. Do you need a manager? We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore!
-    </p>
+<!--use input/output as labels for classes-->
+<!--form created with the help of dummies.com-->
+<form action = ">
+    <fieldset>
+    <label>Type in a location </label>
+    <input type = "text"
+      id = "txtName" />
+    <input type = "button"
+      value = "click me"
+      onclick = "sayHi()"/>
+    <input type = "text"
+      id = "txtOutput" />
+    </fieldset>
+   </form>
+
+<div class="researchlinks">
+    <a href="#context" class="link-animation">I need some context first!</a>
+    <a href="#how" class="link-animation">How does this work?</a>
+</div>
+
+</div>
+    <h2 id="context">
+        Background Context
+    </h2>
+<div class="container">
+    <p>Enter research.</p>
+</div>
+    <h2 id="how">
+        How does this work?
+    </h2>
+<div class="container">
+    <p>API explanation.</p>
 </div>
 
 </main>

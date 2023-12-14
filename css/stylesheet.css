@@ -107,6 +107,17 @@ footer a:visited {
 
 /*research styling*/
 
+.htwos {
+    color:#ffffff;
+}
+
+.direct li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color: #000000;
+}
+
 /*these links need serious fixing lol*/
 .researchlinks {
     display: flex;

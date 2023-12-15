@@ -1,5 +1,4 @@
-/*copied from old TIF, pruning as needed*/
-/*import Space Grotesk from Google Fonts?*/
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 /*structural styles*/
 body {
@@ -28,9 +27,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Jost', sans-serif;
     color: #000000;
-  /*  color: #ffffff; */
 }
 
 /*link animation adjusted from 30 seconds of code*/
@@ -59,9 +57,16 @@ nav ul li a {
   }
 
 /*main styling*/
+h1 {
+    font-size: 10ch;
+}
 
-h1, h2, p {
-    font-family:'Courier New', Courier, monospace;
+h1, h2, h3 {
+    font-family: 'Jost', sans-serif;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace; 
 }
 
 
@@ -109,6 +114,10 @@ footer a:visited {
 
 .htwos {
     color:#ffffff;
+}
+
+.direct ul {
+    list-style-type: none;
 }
 
 .direct li a {

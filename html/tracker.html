@@ -33,12 +33,50 @@
             STATUS: INCOMPLETE
         </h3>
         <p>
-            Presently, this build is unfinished. My goal is to create a form that lets people find what LEOs are passing overhead from a given location, but I have found that this is beyong my current coding capabilities. In lieu of this, I have created a simple application that draws from <a href="https://celestrak.org/NORAD/elements/?FORMAT=json#:~:text=or%20so)%20Brightest-,Active%20Satellites,-Analyst%20Satellites" target="_blank">this resource</a> to ______.
+            Presently, this build is unfinished. My goal is to create a form that lets people find what LEOs are passing overhead from a given location, but I have found that this is beyong my current coding capabilities. In lieu of this, I have created a simple application that draws from <a href="https://celestrak.org/NORAD/elements/?FORMAT=json#:~:text=or%20so%20Brightest-,Active%20Satellites,-Analyst%20Satellites" target="_blank">this resource</a> to determine the name and mean motion of an object in orbit.
         </p>
         <h3>
             SATELLITE INFO
         </h3>
+
         <p class="satellite"></p>
+        <p>This application has proved to be very finnicky. I initially used the code from a previous application in class, but because the JSON file is not formatted with properties or periods (that I can see), it was difficult to use the same function. Below is the code I have written:</p>
+<pre>
+<code>
+const url = 
+"https://celestrak.org/NORAD/elements/gp.php?GROUP=last-30-days&FORMAT=json"
+
+
+function buildPage(satelliteData) {
+	
+	console.log(satelliteData);
+
+	results = satelliteData
+
+	let container = document.querySelector(".satellite")
+
+	let weather = satelliteDataData.properties.periods[0]
+
+	console.log(satellite)
+	console.log(container)
+
+	console.log(satellite[0])
+	let output = `The object ${object_name}'s mean motion is ${mean_motion}.`;
+	
+	container.innerHTML = output
+}
+
+async function fetchRemoteData(location) {
+	const response = await fetch(location)
+	if (!response.ok) {
+    throw new Error(`An error has occured: ${response.status}`)
+	}
+	const weatherResponse = await response.json()
+	buildPage(weatherResponse)	
+}
+</code>
+</pre>
+
         <h3>
             CREDITS
         </h3>
